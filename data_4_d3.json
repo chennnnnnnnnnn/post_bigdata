@@ -1,134 +1,4 @@
 {
-  "nodes": [
-    {
-      "id": "Y4",
-      "group": 10
-    },
-    {
-      "id": "I4",
-      "group": 3
-    },
-    {
-      "id": "I3",
-      "group": 3
-    },
-    {
-      "id": "P5",
-      "group": 4
-    },
-    {
-      "id": "A3",
-      "group": 0
-    },
-    {
-      "id": "Z4",
-      "group": 11
-    },
-    {
-      "id": "P4",
-      "group": 4
-    },
-    {
-      "id": "V4",
-      "group": 7
-    },
-    {
-      "id": "H4",
-      "group": 2
-    },
-    {
-      "id": "W2",
-      "group": 8
-    },
-    {
-      "id": "Z2",
-      "group": 11
-    },
-    {
-      "id": "I2",
-      "group": 3
-    },
-    {
-      "id": "T2",
-      "group": 6
-    },
-    {
-      "id": "A1",
-      "group": 0
-    },
-    {
-      "id": "V2",
-      "group": 7
-    },
-    {
-      "id": "I7",
-      "group": 3
-    },
-    {
-      "id": "A2",
-      "group": 0
-    },
-    {
-      "id": "G2",
-      "group": 1
-    },
-    {
-      "id": "T5",
-      "group": 6
-    },
-    {
-      "id": "X2",
-      "group": 9
-    },
-    {
-      "id": "VL",
-      "group": 7
-    },
-    {
-      "id": "H7",
-      "group": 2
-    },
-    {
-      "id": "Z1",
-      "group": 11
-    },
-    {
-      "id": "G1",
-      "group": 1
-    },
-    {
-      "id": "I1",
-      "group": 3
-    },
-    {
-      "id": "Y7",
-      "group": 10
-    },
-    {
-      "id": "V3",
-      "group": 7
-    },
-    {
-      "id": "T4",
-      "group": 6
-    },
-    {
-      "id": "S2",
-      "group": 5
-    },
-    {
-      "id": "G3",
-      "group": 1
-    },
-    {
-      "id": "I5",
-      "group": 3
-    },
-    {
-      "id": "T1",
-      "group": 6
-    }
-  ],
   "links": [
     {
       "source": "Y4",
@@ -166,24 +36,19 @@
       "target": "Y4"
     },
     {
-      "source": "Z2",
-      "value": 3,
-      "target": "P4"
-    },
-    {
       "source": "Z4",
       "value": 3,
       "target": "Y4"
     },
     {
-      "source": "X2",
-      "value": 1,
-      "target": "H4"
+      "source": "Z2",
+      "value": 3,
+      "target": "P4"
     },
     {
-      "source": "X2",
+      "source": "W2",
       "value": 1,
-      "target": "H7"
+      "target": "I7"
     },
     {
       "source": "G2",
@@ -191,9 +56,9 @@
       "target": "I4"
     },
     {
-      "source": "W2",
+      "source": "P5",
       "value": 1,
-      "target": "I7"
+      "target": "P5"
     },
     {
       "source": "Y4",
@@ -206,6 +71,11 @@
       "target": "Z4"
     },
     {
+      "source": "X2",
+      "value": 1,
+      "target": "H4"
+    },
+    {
       "source": "H4",
       "value": 1,
       "target": "Z2"
@@ -216,19 +86,149 @@
       "target": "H4"
     },
     {
-      "source": "X2",
-      "value": 1,
-      "target": "I4"
-    },
-    {
-      "source": "P5",
-      "value": 1,
-      "target": "P5"
-    },
-    {
       "source": "A1",
       "value": 1,
       "target": "Z4"
+    },
+    {
+      "source": "X2",
+      "value": 1,
+      "target": "H7"
+    },
+    {
+      "source": "X2",
+      "value": 1,
+      "target": "I4"
+    }
+  ],
+  "nodes": [
+    {
+      "group": 10,
+      "id": "Y4"
+    },
+    {
+      "group": 3,
+      "id": "I4"
+    },
+    {
+      "group": 3,
+      "id": "I3"
+    },
+    {
+      "group": 4,
+      "id": "P5"
+    },
+    {
+      "group": 0,
+      "id": "A3"
+    },
+    {
+      "group": 11,
+      "id": "Z4"
+    },
+    {
+      "group": 4,
+      "id": "P4"
+    },
+    {
+      "group": 7,
+      "id": "V4"
+    },
+    {
+      "group": 2,
+      "id": "H4"
+    },
+    {
+      "group": 8,
+      "id": "W2"
+    },
+    {
+      "group": 11,
+      "id": "Z2"
+    },
+    {
+      "group": 3,
+      "id": "I2"
+    },
+    {
+      "group": 6,
+      "id": "T2"
+    },
+    {
+      "group": 0,
+      "id": "A1"
+    },
+    {
+      "group": 7,
+      "id": "V2"
+    },
+    {
+      "group": 3,
+      "id": "I7"
+    },
+    {
+      "group": 0,
+      "id": "A2"
+    },
+    {
+      "group": 1,
+      "id": "G2"
+    },
+    {
+      "group": 6,
+      "id": "T5"
+    },
+    {
+      "group": 9,
+      "id": "X2"
+    },
+    {
+      "group": 7,
+      "id": "VL"
+    },
+    {
+      "group": 2,
+      "id": "H7"
+    },
+    {
+      "group": 11,
+      "id": "Z1"
+    },
+    {
+      "group": 1,
+      "id": "G1"
+    },
+    {
+      "group": 3,
+      "id": "I1"
+    },
+    {
+      "group": 10,
+      "id": "Y7"
+    },
+    {
+      "group": 7,
+      "id": "V3"
+    },
+    {
+      "group": 6,
+      "id": "T4"
+    },
+    {
+      "group": 5,
+      "id": "S2"
+    },
+    {
+      "group": 1,
+      "id": "G3"
+    },
+    {
+      "group": 3,
+      "id": "I5"
+    },
+    {
+      "group": 6,
+      "id": "T1"
     }
   ]
 }
